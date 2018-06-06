@@ -15,9 +15,9 @@ sh 'java -jar rectangle.jar 7 9'
 }
 }
 post {
-	sucess {
-	archiveArtifacts artifacts: 'rectangle.jar', fingerprint:
+success {
+archiveArtifacts artifacts: 'rectangle.jar', fingerprint:
 true
-		}
-	}
+}
+}
 }
